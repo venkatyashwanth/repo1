@@ -1,0 +1,30 @@
+Using GIT HUB: 
+
+1. Create new GIT Repository in git hub account. 
+
+Run this command in CCBP-IDE terminal to create an empty local repository. 
+-->git init
+
+Run this command in CCBP - IDE terminal to create a connection between your local repository and remote repository. 
+-->git remote add origin <repository-url>
+repository-url can be found in git hub account <-> in created repository.
+
+Run this command to add the code changes in the files to the stage area.
+-->git add -A 
+
+Run this command to save changes to a local repository after staging the changes. 
+-->git commit -m "commit message"
+
+Run this command in the CCBP-IDE terminal 
+-->git branch -M main
+
+Run this command to push your local repository changes to the remote repository. 
+-->git push -u origin main
+Here it asks for username and possword. Enter them. 
+
+Posting in the discussions: 
+Copy the link of the code and paste in discussions if want to post the doubt. 
+
+
+
+
